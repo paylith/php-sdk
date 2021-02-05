@@ -1,0 +1,23 @@
+{
+  "name": "paylith/php-sdk",
+  "description": "Paylith PHP SDK",
+  "type": "library",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Paylith",
+      "email": "dev@paylith.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Paylith\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  }
+}
