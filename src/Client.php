@@ -42,4 +42,23 @@ class Client extends Api
             ]
         ]);
     }
+
+    public function createProductLink($conversationId, $userId, $userEmail, $userIpAddress, $productName, $productAmount)
+    {
+        return $this->request('POST', 'token', [
+            'form_params' => [
+                'token' => $this->generateToken($conversationId, $userId, $userEmail, $userIpAddress),
+                'apiKey' => $this->apiKey,
+                'conversationId' => $conversationId,
+                'userId' => $userId,
+                'userEmail' => $userEmail,
+                'userIpAddress' => $userIpAddress,
+                'productApi' => true,
+                'productData' => [
+                    'name' => $productName,
+                    'amount' => $productAmount,
+                ],
+            ]
+        ]);
+    }
 }

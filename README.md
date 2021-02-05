@@ -42,6 +42,26 @@ try {
 }
 ```
 
+Create a Product link
+```php
+use Paylith\Client;
+
+$client = new Paylith\Client('TestApiKey', 'TestApiSecret');
+
+try {
+    $result = $paylith->createProductLink(
+        'TestConversationId',
+        'TestUserId',
+        'TestUserEmail',
+        'TestUserIpAddress',
+        'TestProductName',
+        'TestProductAmount',
+    );
+} catch (Exception $exception) {
+    // catch errors
+}
+```
+
 Get Payment Detail
 ```php
 use Paylith\Resources\Payment;
