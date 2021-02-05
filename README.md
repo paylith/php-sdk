@@ -1,9 +1,9 @@
 # Paylith PHP SDK
 
-[![Latest Version](https://img.shields.io/github/release/paylith/paylith-php-sdk.svg?style=flat-square)](https://github.com/paylith/paylith-php-sdk/releases)
-[![Build Status](https://travis-ci.org/paylith/paylith-php-sdk.svg?branch=master)](https://travis-ci.org/paylith/paylith-php-sdk)
+[![Latest Version](https://img.shields.io/github/release/paylith/php-sdk.svg?style=flat-square)](https://github.com/paylith/php-sdk/releases)
+[![Build Status](https://travis-ci.org/paylith/php-sdk.svg?branch=master)](https://travis-ci.org/paylith/php-sdk)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-<!--[![Total Downloads](https://img.shields.io/packagist/dt/paylith/paylith-php-sdk.svg?style=flat-square)](https://packagist.org/packages/paylith/paylith-php-sdk)-->
+<!--[![Total Downloads](https://img.shields.io/packagist/dt/paylith/php-sdk.svg?style=flat-square)](https://packagist.org/packages/paylith/php-sdk)-->
 
 Paylith PHP Library provides access to Paylith API from Applications written in PHP language. 
 
@@ -15,7 +15,7 @@ Paylith PHP Library provides access to Paylith API from Applications written in 
 ### Composer
 Install the library using [Composer](https://getcomposer.org)
 ```bash
-$ composer require paylith/paylith-php-sdk
+$ composer require paylith/php-sdk
 ```
 
 Use autoloader
