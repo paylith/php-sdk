@@ -82,7 +82,7 @@ try {
 See the [Paylith API documentation](https://docs.paylith.com)
 
 ## Support
-If you have any questions or issues, please contact our support at support@paylith.com.
+If you have any questions or issues, please contact our support at contact@paylith.com.
 
 ## License
 MIT license. For more information see the [LICENSE file](LICENSE)
